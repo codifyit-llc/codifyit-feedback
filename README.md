@@ -61,14 +61,25 @@ internal governance or downstream work management.
 
 ## How to post
 
-When you start a discussion, please tell us:
+Start a discussion in **Ideas**, **Product Improvements**, or **Cross-Product
+Feedback**. Each category has a short form. Pick the product it concerns
+(Compass, Atlas, Aria, Aaron, Recon, Sage, or cross-product) and tell us:
 
-- the product or area affected
 - the problem or opportunity you see
 - the outcome you want
 - who is affected
 - any workaround you are using today
-- whether the request contains confidential or client-specific information
+
+The form asks you to confirm the post holds no confidential or client-specific
+information. If it would, use the private channel you already have with
+CodifyIT instead.
+
+**Compass adopters:** this is where to send framework feedback to CodifyIT.
+Choose **Compass** as the product. Issues are not used here. Discussions are the
+one door.
+
+CodifyIT reviews every post and decides what becomes tracked work. A person,
+not a bot, replies with one of the statuses above.
 
 ## Important note
 

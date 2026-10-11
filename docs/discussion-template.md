@@ -1,36 +1,11 @@
 # Public Feedback Template
 
-Use this structure for new discussions in `Ideas`, `Product Improvements`, or
-`Cross-Product Feedback`.
+The template now lives as GitHub Discussion category forms in
+[`.github/DISCUSSION_TEMPLATE/`](../.github/DISCUSSION_TEMPLATE/): one each for
+`Ideas`, `Product Improvements`, and `Cross-Product Feedback`. Every form asks
+for the product (Compass, Atlas, Aria, Aaron, Recon, Sage, or cross-product),
+the problem or opportunity, the desired outcome, who is affected, any current
+workaround, and a confidentiality confirmation.
 
-## Product or area affected
-
-Which CodifyIT product, workflow, or experience does this relate to?
-
-## Problem or opportunity
-
-What is happening today, or what opportunity do you think CodifyIT should
-consider?
-
-## Desired outcome
-
-What would a better result look like?
-
-## Who is affected
-
-Who experiences this problem or would benefit from the improvement?
-
-## Current workaround
-
-If you have one, how are you handling this today?
-
-## Confidentiality check
-
-Does this request include confidential, private, or client-specific
-implementation detail?
-
-- `Yes`
-- `No`
-
-If `Yes`, stop here and move the conversation to a private channel instead of
-posting publicly.
+Edit the forms, not this file. Posts that would include confidential or
+client-specific detail belong in a private channel, not here.

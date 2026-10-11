@@ -1,0 +1,55 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Tell us what could work better in a CodifyIT product you use.
+
+        CodifyIT reads every post and decides what becomes tracked work. We
+        reply here with a short status (`[Under Review]`, `[Routed]`, and so on).
+        This space is public: no secrets, credentials, or client-confidential detail.
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product
+      description: Which CodifyIT product does this concern?
+      options:
+        - Compass
+        - Atlas
+        - Aria
+        - Aaron
+        - Recon
+        - Sage
+        - Cross-product / not sure
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or opportunity
+      description: What is happening today, or what should CodifyIT consider?
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome
+      description: What would a better result look like?
+    validations:
+      required: true
+  - type: textarea
+    id: affected
+    attributes:
+      label: Who is affected
+      description: Who experiences this, or would benefit from the change?
+  - type: textarea
+    id: workaround
+    attributes:
+      label: Current workaround
+      description: If you have one, how are you handling this today?
+  - type: checkboxes
+    id: confidentiality
+    attributes:
+      label: Confidentiality check
+      options:
+        - label: This post contains no secrets, credentials, or confidential or client-specific detail.
+          required: true
